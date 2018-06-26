@@ -1,0 +1,16 @@
+add -> commit -> push
+
+tracked, untracked
+
+staged, unstaged
+
+git init
+git add a.txt
+git commit -m "메세지 입력" a.txt
+
+//최초 push 입력
+git remote add origin https://github.com/hongseonghyeon/cs2018.git
+git push -u origin master
+
+//이후 push 입력
+git push
